@@ -1,0 +1,75 @@
+body {
+  font-family: "avenir";
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: .2em;
+}
+
+h2, ol, li {
+  letter-spacing: .2em;
+  color: white;
+}
+
+#mySketch {
+  margin: auto;
+  width: 800px;
+  height: 250px;
+  background: #d9cdca;
+}
+
+#content {
+  display: flex;
+  margin: auto;
+  padding-top: 32px;
+}
+
+#studios {
+  margin: auto;
+  width: 310px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  background: #bb746b;
+  padding: 21px;
+}
+
+#research {
+  margin: auto;
+  width: 310px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  background: #005554;
+  padding: 21px;
+}
+
+#development {
+  margin: auto;
+  width: 310px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  background: #b38d41;
+  padding: 21px;
+}
+
+footer {
+  position: fixed;
+  margin-top: 36px;
+  left: 0px;
+  bottom: 0px;
+  padding: 24px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  padding: 6em;
+}
