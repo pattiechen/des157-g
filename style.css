@@ -68,8 +68,15 @@ footer {
   text-align: center;
 }
 
+footer a {
+  padding: 6em;
+}
+
 a:link, a:visited {
   color: white;
   text-decoration: none;
-  padding: 6em;
+}
+
+a:hover {
+  text-decoration: underline;
 }
