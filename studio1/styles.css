@@ -5,6 +5,14 @@ body {
   padding-bottom: 72px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 section {
   background-color: #d9cdca;
   margin: auto;
