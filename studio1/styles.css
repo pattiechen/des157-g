@@ -1,0 +1,38 @@
+body {
+  font-family: "avenir";
+  margin: auto;
+  width: 65%;
+  padding-bottom: 72px;
+}
+
+section {
+  background-color: #d9cdca;
+  margin: auto;
+  padding: 21px;
+  line-height: 24px;
+  text-align: left;
+}
+
+fieldset {
+  display: grid;
+  border: none;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  padding: 24px;
+}
+
+footer a {
+  padding: 48px;
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Studio 1 / Mad Libs</title>
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
+    <link href= "styles.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Mad Libs</h1>
+  </header>
+
+  <section>
+
+    <form name="f">
+
+      <div>
+        <label for="cup">Cup or Cone?</label>
+        <input type="radio" name="cup" value="cup" checked> Cup
+        <input type="radio" name="cup" value="cone"> Cone
+      </div>
+
+      <fieldset>
+          <label for="flavor"> What flavor of ice cream makes you happiest?</label>
+          <input id="flavor" type="text" name="flavor" required>
+      </fieldset>
+
+      <fieldset>
+          <label for="candy"> What candy always satisfies your sweet tooth?</label>
+          <input id="candy" type="text" name="candy" required>
+      </fieldset>
+
+      <fieldset>
+          <label for="fruit"> What fruit do you find irresistible?</label>
+          <input id="fruit" type="text" name="fruit" required>
+      </fieldset>
+
+      <fieldset>
+          <label for="sauce"> What sauce would you drizzle as a final touch?</label>
+          <input id="sauce" type="text" name="sauce" required>
+      </fieldset>
+
+      <input type="submit" value="submit" id="submit">
+      <input type="reset" value="reset" id="reset">
+
+    </form>
+
+  </section>
+
+  <footer>
+    <a href="mailto:ppcchen@ucdavis.edu">Email</a>
+    <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
