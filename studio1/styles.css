@@ -1,8 +1,17 @@
 body {
+  background-color: #f8dac5;
   font-family: "avenir";
   margin: auto;
   width: 65%;
+  height: 65%;
   padding-bottom: 72px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+h1 {
+  color:#ffb034;
+  min-width: 700px;
 }
 
 a:link {
@@ -13,17 +22,55 @@ a:hover {
   text-decoration: underline;
 }
 
-section {
-  background-color: #d9cdca;
-  margin: auto;
-  padding: 21px;
-  line-height: 24px;
-  text-align: left;
+#formSection {
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
-fieldset {
-  display: grid;
+
+#myMsg {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: #ea9a96;
+  padding: 20px;
+  color: white;
+  line-height: 24px;
+}
+
+h4 {
+  color: #e75a48;
+}
+
+input[type="text"] {
   border: none;
+  background-color: #ea9a96;
+  padding: 10px;
+  color: white;
+}
+
+input[type="text"]:focus {
+  background-color: #ea9a96;
+  color: white;
+}
+
+input[type="reset"], input[type="submit"] {
+  border: none;
+  background: #ffb034;
+  padding: 10px;
+  margin-top: 24px;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover {
+  background: #e75a48;
+  color: white;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
 }
 
 footer {

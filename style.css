@@ -18,7 +18,7 @@ h2, ol, li {
   margin: auto;
   width: 800px;
   height: 250px;
-  background: #d9cdca;
+  background: #e89292;
 }
 
 #content {
@@ -33,7 +33,7 @@ h2, ol, li {
   position: relative;
   overflow: hidden;
   float: left;
-  background: #bb746b;
+  background: #0b5b67;
   padding: 21px;
 }
 
@@ -43,7 +43,7 @@ h2, ol, li {
   position: relative;
   overflow: hidden;
   float: left;
-  background: #005554;
+  background: #e89292;
   padding: 21px;
 }
 
@@ -53,7 +53,7 @@ h2, ol, li {
   position: relative;
   overflow: hidden;
   float: left;
-  background: #b38d41;
+  background: #fbdd8e;
   padding: 21px;
 }
 

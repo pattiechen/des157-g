@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Studio 1 / Mad Libs</title>
+    <title>Studio 1 Mad Libs</title>
     <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
     <link href= "styles.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
@@ -12,44 +12,55 @@
 <body>
 
   <header>
-    <h1>Mad Libs</h1>
+    <h1>Cool off with some ice cream!</h1>
   </header>
 
-  <section>
+  <section id="formSection">
 
-    <form name="f">
+    <form>
 
-      <div>
-        <h3>With ice scream, anything is popsicle— let's get started!</h3>
-        <input type="radio" name="cup" value="cup" checked> Cup
-        <input type="radio" name="cone" value="cone"> Cone
+      <div id="cupcone">
+        <h4> Cup or cone?</h4>
+        <input type="radio" name="cupcone" checked> Cup
+        <input type="radio" name="cupcone"> Cone
       </div>
 
-      <fieldset>
-          <label for="flavor"> What flavor of ice cream makes you happiest?</label>
-          <input id="flavor" type="text" name="flavor" required>
-      </fieldset>
+      <div>
+          <h4 for="flavor"> What flavor of ice cream makes you happiest?</h4>
+          <input type="text" name="flavor" id="flavor" required>
+      </div>
 
-      <fieldset>
-          <label for="candy"> What candy always satisfies your sweet tooth?</label>
-          <input id="candy" type="text" name="candy" required>
-      </fieldset>
+      <div>
+          <h4 for="candy"> What candy always satisfies your sweet tooth?</h4>
+          <input type="text" name="candy" id="candy" required>
+      </div>
 
-      <fieldset>
-          <label for="fruit"> What fruit do you find irresistible?</label>
-          <input id="fruit" type="text" name="fruit" required>
-      </fieldset>
+      <div>
+          <h4 for="fruit"> What fruit do you find irresistible?</h4>
+          <input type="text" name="fruit"  id="fruit" required>
+      </div>
 
-      <fieldset>
-          <label for="sauce"> What sauce would you drizzle as a final touch?</label>
-          <input id="sauce" type="text" name="sauce" required>
-      </fieldset>
+      <div>
+          <h4 for="sauce"> What sauce would you drizzle as a final touch?</h4>
+          <input type="text" name="sauce" id="sauce" required>
+      </div>
 
-      <input type="submit" value="submit" id="submit">
-      <input type="reset" value="reset" id="reset">
+      <input type="reset" value="reset" id="r">
+      <input type="submit" value="submit" id="s">
 
     </form>
 
+  </section>
+
+  <!-- <section>
+    <div id="img">
+      <img src="icecream.png" alt="ice cream" style="width:80%">
+    </div>
+  </section> -->
+
+  <section id="msgSection" class="hide">
+   <img src="icecream.png" alt="ice cream" style="width:80%">
+   <p id="myMsg"></p>
   </section>
 
   <footer>

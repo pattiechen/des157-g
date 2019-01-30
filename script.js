@@ -12,7 +12,7 @@ function draw () {
   for (var y=20; y<=250; y+=45) {
   for (var z=20; z<=800; z+=45) {
     line (z, y, z-10, y-15);
-    stroke('#d9cdca');
+    stroke('#f6baba');
     strokeWeight(2);
 
     if(mouseIsPressed) {
