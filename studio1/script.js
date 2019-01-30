@@ -25,7 +25,7 @@ console.log('sauce: '+ sauce);
 var myMsg = document.querySelector('#myMsg');
 var msgSection = document.querySelector('#msgSection');
 
-myMsg.innerHTML = 'Get ready to enjoy your <i>' + cupcone + '</i> filled to the brim with the richest <i>' + flavor + '</i> ice cream. Your sweet treat is topped off with the most decadent <i>' + candy + '</i>, the juiciest selection of <i>' + fruit + '</i>, and perfected with an elegant <i>' + sauce + '<i> drizzle.'
+myMsg.innerHTML = 'Get ready to enjoy your <i>' + cupcone + '</i> filled to the brim with the richest <i>' + flavor + '</i> ice cream. Your sweet treat is topped off with the most decadent <i>' + candy + '</i>, the juiciest selection of <i>' + fruit + '</i>, and perfected with an elegant <i>' + sauce + '</i> drizzle.'
 
 msgSection.className = 'show';
 
