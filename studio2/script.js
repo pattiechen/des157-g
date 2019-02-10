@@ -1,3 +1,5 @@
+'use strict';
+
 var imgw = document.querySelector("#imgw");
 var overlayw = document.querySelector("#overlayw");
 var closew = document.querySelector("#closew");
