@@ -31,11 +31,11 @@ img {
 
 
 #overlayw {
-  background-color: #114e60;
+  background-color: #114e60; opacity: 0.95;
   width: 540px;
   padding: 21px;
   margin: 0;
-  position: relative;
+  position: fixed;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -58,11 +58,11 @@ img {
 }
 
 #overlayp {
-  background-color: #114e60;
+  background-color: #114e60; opacity: 0.95;
   width: 540px;
   padding: 21px;
   margin: 0;
-  position: relative;
+  position: fixed;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -85,11 +85,11 @@ img {
 }
 
 #overlayl {
-  background-color: #114e60;
+  background-color: #114e60; opacity: 0.95;
   width: 540px;
   padding: 21px;
   margin: 0;
-  position: relative;
+  position: fixed;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -178,7 +178,7 @@ footer a:visited {
 }
 
 #overlayw {
-  background-color: #114e60;
+  background-color: #114e60; opacity: 0.95;
   width: 540px;
   padding: 21px;
   margin: 0;
@@ -205,7 +205,7 @@ footer a:visited {
 }
 
 #overlayp {
-  background-color: #114e60;
+  background-color: #114e60; opacity: 0.95;
   width: 540px;
   padding: 21px;
   margin: 0;
@@ -232,7 +232,7 @@ footer a:visited {
 }
 
 #overlayl {
-  background-color: #114e60;
+  background-color: #114e60; opacity: 0.95;
   width: 540px;
   padding: 21px;
   margin: 0;
