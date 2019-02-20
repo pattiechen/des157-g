@@ -1,0 +1,43 @@
+body {
+  font-family: "avenir";
+  margin: auto;
+  width: 65%;
+  padding-bottom: 72px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+}
+
+
+footer {
+  position: fixed;
+  margin-top: 36px;
+  left: 0px;
+  bottom: 0px;
+  padding: 24px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+footer a {
+  padding: 48px;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
